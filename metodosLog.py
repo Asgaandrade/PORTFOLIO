@@ -87,12 +87,14 @@ def identifica_user(usuario_senha, usuarios_sistema):
 
 #----------------------------------------------------------------------------------
 
+#Função de retorno, acesso liberado ou acesso negado:
+
 def registro_print(perm_acesso, user):
         
     #Validando login:
         if perm_acesso == True:
             print("\nAcesso liberado!")
-            print(f"Seu registro está funcionando, bem vindo {user[0]}.\n")
+            print(f"Seu registro está funcionando, bem-vindo(a) {user[0]}.")
     
         elif perm_acesso == False:
             print("\nAcesso negado!")
