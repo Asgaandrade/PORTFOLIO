@@ -20,7 +20,7 @@ def encerrar_prog():
 
         if response_low in list_posi: 
 
-            print("[PROGRAMA SENDO ENCERRADO]...")
+            print("\n[PROGRAMA SENDO ENCERRADO]...")
             sleep(2) #Da biblioteca time
             print("[PROGRAMA ENCERRADO]")
             sleep(2)
@@ -64,8 +64,8 @@ def cadastra_user():
 
 #Função de login de usuários:
 def login_user():
-    user_login = input("\nDigite seu nome de usuário: ")
-    password_login = input("Digite sua senha de usuário: ")
+    user_login = input("\n[USUÁRIO]: ")
+    password_login = input("[SENHA]: ")
     tupla_login = (user_login, password_login)
 
     return tupla_login

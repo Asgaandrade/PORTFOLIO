@@ -54,7 +54,7 @@ while rodando_prog == True:
         list_posi = ["sim", "s"]
         list_nega = ["não", "nao", "n"]
 
-        decision = str(input("Deseja continuar testando outros registros? [sim/não] "))
+        decision = str(input("\nDeseja continuar testando outros registros? [sim/não] "))
         decision_low = decision.lower()
 
         if decision_low in list_posi: 
