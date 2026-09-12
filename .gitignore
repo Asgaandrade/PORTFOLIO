@@ -1,0 +1,4 @@
+
+#Ignorar caches do python:
+__pycache__/
+*.pyc
